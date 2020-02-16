@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { PostList } from './components/Post';
 
@@ -26,7 +25,7 @@ function App() {
 
   return (
     <div className="container border">
-      <p>Grapes blog</p>
+      <p>SourGrapes blog</p>
       <PostList posts={posts} />
     </div>
   );
