@@ -7,6 +7,7 @@ const PostList = ({ posts }) => {
             {posts.map((post) => {
                 return(
                     <Post 
+                        key={post.postId}
                         title={post.title}
                         author={post.author}
                         postDate={post.postDate}
